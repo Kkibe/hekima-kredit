@@ -16,7 +16,7 @@ export default function SuccessMessage({ serviceFee, email }) {
     reference: (new Date()).getTime().toString(),
     email: email,
     amount: serviceFee * 100,
-    publicKey: 'pk_live_bddd84f711046f4cb7bfd24aa6a640af0dbfd784',
+    publicKey: 'pk_live_1e35aa9c51b1ac2d3b5aa876686d71e574ff92f7',
     currency: "KES",
     metadata: {
       name: email,
