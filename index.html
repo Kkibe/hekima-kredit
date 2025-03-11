@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/logo32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/logo16.png" />
+  <link rel="apple-touch-icon" href="/logo192.png" />
+  <link rel="manifest" href="/manifest.json" crossorigin="anonymous" />
+  <link rel="shortcut icon" type="image/x-icon" href="/logo512.png" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#38b6ff">
+  <meta name="background-color" content="#d6f0ff" />
+  <meta name="description" content="Get instant online loans to M-Pesa in minutes. No paperwork, no guarantors required. Enjoy fast approval, low interest rates (5% p.a.), and flexible repayment options." />
+  <meta name="keywords" content="instant loans, M-Pesa loans, online loans Kenya, quick loans, no paperwork loans, low interest loans, payday loans, fast loan approval, emergency loans" />
+  <meta name="author" content="HEKIMA KREDIT" />
+  <link rel="canonical" href="https://hekimakredit.onrender.com/" />
+
+  <!-- Open Graph (Social Media) Tags -->
+  <meta property="og:title" content="HEKIMA KREDIT - Instant M-Pesa Loans | No Paperwork, Fast Approval" />
+  <meta property="og:description" content="Apply for an instant M-Pesa loan today! Get quick online loans with fast approval and no paperwork. Enjoy low interest rates and flexible repayment terms." />
+  <meta property="og:image" content="/logo512.png" />
+  <meta property="og:url" content="https://hekimakredit.onrender.com/" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="HEKIMA KREDIT - Instant M-Pesa Loans | No Paperwork, Fast Approval" />
+  <meta name="twitter:description" content="Need cash fast? Apply for an instant online loan to M-Pesa. No paperwork, no waiting—just quick and easy financial support!" />
+  <meta name="twitter:image" content="/logo512.png" />
+
+  <!-- iOS Meta Tags -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="HEKIMA KREDIT" />
+
+  <!-- Apple Touch Icons -->
+  <link rel="apple-touch-icon" sizes="120x120" href="/logo120.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/logo152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/logo180.png" />
+
+  <!-- SEO: Search Engine Indexing -->
+  <meta name="robots" content="index, follow" />
+  <link rel="alternate" href="https://hekimakredit.onrender.com/" hreflang="en" />
+
+  <title>HEKIMA KREDIT - Instant M-Pesa Loans | Apply Online Now</title>
+</head>
+
+<body>
+  <div id="root"></div>
+
+  <script type="module" src="/src/main.jsx"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./service-worker.js')
+        .then(registration => {}).catch(error => {
+          console.error('Service Worker registration failed:', error);
+        });
+    }
+
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#1f83bd');
+    } else {
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#38b6ff');
+    }
+  </script>
+
+  <!-- Google Analytics Tracking -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16766305770"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'AW-16766305770');
+  </script>
+</body>
+
+</html>

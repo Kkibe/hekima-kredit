@@ -1,0 +1,135 @@
+{
+    "short_name": "HEKIMA KREDIT",
+    "name": "HEKIMA KREDIT",
+    "homepage": "https://hekimakredit.onrender.com/",
+    "version": "1.0.0",
+    "description": "Get instant online loans to M-Pesa in minutes. No paperwork, no guarantors. Fast approval, low interest rates, and flexible repayment options.",
+    "icons": [
+        {
+            "src": "favicon.ico",
+            "sizes": "64x64 32x32 24x24 16x16",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "icons/logo192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "logo16.png",
+            "type": "image/png",
+            "sizes": "16x16"
+        },
+        {
+            "src": "logo32.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "logo48.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "logo64.png",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "logo96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "logo120.png",
+            "type": "image/png",
+            "sizes": "120x120"
+        },
+        {
+            "src": "logo128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "logo152.png",
+            "type": "image/png",
+            "sizes": "152x152"
+        },
+        {
+            "src": "logo180.png",
+            "type": "image/png",
+            "sizes": "180x180"
+        },
+        {
+            "src": "logo192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "logo512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "maskable"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Apply for a Loan",
+            "short_name": "Apply Loan",
+            "description": "Apply for an instant M-Pesa loan online.",
+            "url": "/apply",
+            "icons": [
+                {
+                    "src": "icons/logo192.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                },
+                {
+                    "src": "logo512.png",
+                    "sizes": "512x512",
+                    "type": "image/png"
+                }
+            ]
+        }
+    ],
+    "service_worker": {
+        "src": "/service-worker.js",
+        "scope": "/",
+        "type": "classic"
+    },
+    "developer": {
+        "name": "Your Loan App Name",
+        "url": "https://hekimakredit.onrender.com/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Kkibe/hekima-kredit.git"
+    },
+    "license": "ISC/MIT",
+    "keywords": [
+        "instant loans",
+        "M-Pesa loans",
+        "online loans Kenya",
+        "quick loans",
+        "no paperwork loans",
+        "low interest loans",
+        "payday loans",
+        "fast loan approval",
+        "emergency loans",
+        "financial services"
+    ],
+    "dir": "ltr",
+    "lang": "en",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "theme_color": "#38b6ff",
+    "background_color": "#d6f0ff",
+    "orientation": "portrait",
+    "categories": [
+        "Finance",
+        "Business",
+        "Productivity",
+        "Tools"
+    ]
+}

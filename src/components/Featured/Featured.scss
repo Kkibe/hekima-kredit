@@ -1,0 +1,43 @@
+.featured{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .wrapper{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 10px;
+        .item{
+            width: 100%;
+            max-width: 300px;
+            box-shadow: var(--shadow);
+            padding: 10px 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            cursor: pointer;
+            .img{
+                width: 40px;
+                height: 40px;
+                object-fit: fill;
+                margin: 5px 10px;
+
+            }
+
+            &:hover{
+                box-shadow: var(--dark-shadow);
+            }
+
+            @media screen and (max-width:480px){
+                &{
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}
